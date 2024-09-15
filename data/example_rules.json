@@ -1,0 +1,45 @@
+{
+    "rules": [
+      {
+        "id": "R1",
+        "description": "Use meaningful variable and function names that clearly describe their purpose."
+      },
+      {
+        "id": "R2",
+        "description": "Ensure consistent indentation using 4 spaces per indentation level."
+      },
+      {
+        "id": "R3",
+        "description": "Avoid using hard-coded values; instead, use constants or configuration files."
+      },
+      {
+        "id": "R4",
+        "description": "Write modular code by breaking down large functions into smaller, reusable components."
+      },
+      {
+        "id": "R5",
+        "description": "Include comments and docstrings to explain complex logic and function purposes."
+      },
+      {
+        "id": "R6",
+        "description": "Handle exceptions gracefully and provide meaningful error messages."
+      },
+      {
+        "id": "R7",
+        "description": "Adhere to the project's coding style guidelines, such as PEP 8 for Python."
+      },
+      {
+        "id": "R8",
+        "description": "Write unit tests for new features and ensure existing tests pass after changes."
+      },
+      {
+        "id": "R9",
+        "description": "Remove unused code and dependencies to keep the codebase clean and maintainable."
+      },
+      {
+        "id": "R10",
+        "description": "Optimize performance by avoiding unnecessary computations and using efficient algorithms."
+      }
+    ]
+  }
+  
