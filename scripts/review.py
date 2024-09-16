@@ -1,7 +1,7 @@
 import argparse
 import sys
-from lib.review_utils import load_rules_from_json, check_diff_with_gpt, display_issues
-from lib.git_helpers import git_diff_branch
+from source.review_utils import load_rules_from_json, check_diff_with_gpt, display_issues
+from source.git_helpers import git_diff_branch
 
 def main():
     parser = argparse.ArgumentParser(description='Pre-check git diffs against coding guidelines.')

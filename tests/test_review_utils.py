@@ -4,7 +4,7 @@ import json
 import sys
 from io import StringIO
 
-from lib.review_utils import (
+from source.review_utils import (
     load_rules_from_json,
     format_response,
     check_diff_with_gpt,
